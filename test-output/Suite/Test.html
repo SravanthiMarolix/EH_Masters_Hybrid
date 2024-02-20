@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 06 17:34:44 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>362 seconds (362169 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ehm.qa.testcases.InventoryStatusPageTest.VerifyInventoryStatusPageTest()'><b>VerifyInventoryStatusPageTest</b><br>Test class: com.ehm.qa.testcases.InventoryStatusPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.ehm.qa.testcases.InventoryStatusPageTest@5b11a194</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.HolidaysPageTest.VerifyHolidaysPageTest()'><b>VerifyHolidaysPageTest</b><br>Test class: com.ehm.qa.testcases.HolidaysPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.ehm.qa.testcases.HolidaysPageTest@37bd68c3</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.InventoryStatusPageTest.VerifyInventoryStatusPageTitleTest()'><b>VerifyInventoryStatusPageTitleTest</b><br>Test class: com.ehm.qa.testcases.InventoryStatusPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.InventoryStatusPageTest@5b11a194</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.SubCategoryPageTest.VefirySubcategoryPageTitleTest()'><b>VefirySubcategoryPageTitleTest</b><br>Test class: com.ehm.qa.testcases.SubCategoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.SubCategoryPageTest@6111ba37</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.LoginPageTest.VerifyEhomeLoginPageTest()'><b>VerifyEhomeLoginPageTest</b><br>Test class: com.ehm.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.ehm.qa.testcases.LoginPageTest@3918c187</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.LocationPageTest.VerifyLocationPageTest()'><b>VerifyLocationPageTest</b><br>Test class: com.ehm.qa.testcases.LocationPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.ehm.qa.testcases.LocationPageTest@7be58f16</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.ConditionPageTest.VerifyConditionPageTitleTest()'><b>VerifyConditionPageTitleTest</b><br>Test class: com.ehm.qa.testcases.ConditionPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.ConditionPageTest@242aa8d9</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.LoginPageTest.VerifyLoginPageTitleTest()'><b>VerifyLoginPageTitleTest</b><br>Test class: com.ehm.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.LoginPageTest@3918c187</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.MRPFactorPageTest.VerifyInventoryStatusPageTest()'><b>VerifyInventoryStatusPageTest</b><br>Test class: com.ehm.qa.testcases.MRPFactorPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.ehm.qa.testcases.MRPFactorPageTest@11eadcba</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.HomePageTest.VerifyEhomePageTitleTest()'><b>VerifyEhomePageTitleTest</b><br>Test class: com.ehm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.HomePageTest@1dd0e7c4</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.HomePageTest.VerifyHomepageDashboardTest()'><b>VerifyHomepageDashboardTest</b><br>Test class: com.ehm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>com.ehm.qa.testcases.HomePageTest@1dd0e7c4</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.UserTypePageTest.VerifyAddUserTypePageTitle()'><b>VerifyAddUserTypePageTitle</b><br>Test class: com.ehm.qa.testcases.UserTypePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.UserTypePageTest@7894f09b</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.LocationPageTest.VerifyLocationPageTitleTest()'><b>VerifyLocationPageTitleTest</b><br>Test class: com.ehm.qa.testcases.LocationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.LocationPageTest@7be58f16</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.CategoryPageTest.VerifyCategoryPageTest()'><b>VerifyCategoryPageTest</b><br>Test class: com.ehm.qa.testcases.CategoryPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.ehm.qa.testcases.CategoryPageTest@3d484181</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.MRPFactorPageTest.VerifyInventoryStatusPageTitleTest()'><b>VerifyInventoryStatusPageTitleTest</b><br>Test class: com.ehm.qa.testcases.MRPFactorPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.MRPFactorPageTest@11eadcba</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.HolidaysPageTest.VerifyHolidaysPageTitleTest()'><b>VerifyHolidaysPageTitleTest</b><br>Test class: com.ehm.qa.testcases.HolidaysPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.HolidaysPageTest@37bd68c3</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.ShiftsPageTest.VerifyShiftsPageTitleTest()'><b>VerifyShiftsPageTitleTest</b><br>Test class: com.ehm.qa.testcases.ShiftsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.ShiftsPageTest@60f7cc1d</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.UserTypePageTest.VerifyAddUserTypePageTest()'><b>VerifyAddUserTypePageTest</b><br>Test class: com.ehm.qa.testcases.UserTypePageTest<br>Parameters: India, 2416</td>
+<td></td>
+<td>11</td>
+<td>com.ehm.qa.testcases.UserTypePageTest@7894f09b</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.ShiftsPageTest.VerifyShiftsPageTest()'><b>VerifyShiftsPageTest</b><br>Test class: com.ehm.qa.testcases.ShiftsPageTest</td>
+<td></td>
+<td>13</td>
+<td>com.ehm.qa.testcases.ShiftsPageTest@60f7cc1d</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.UserTypePageTest.VerifyAddUserTypePageTest()'><b>VerifyAddUserTypePageTest</b><br>Test class: com.ehm.qa.testcases.UserTypePageTest<br>Parameters: Sravs, 5555</td>
+<td></td>
+<td>11</td>
+<td>com.ehm.qa.testcases.UserTypePageTest@7894f09b</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.SubCategoryPageTest.VerifySubcategoryPageTest()'><b>VerifySubcategoryPageTest</b><br>Test class: com.ehm.qa.testcases.SubCategoryPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.ehm.qa.testcases.SubCategoryPageTest@6111ba37</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.CategoryPageTest.VerifyCategoryPageTitleTest()'><b>VerifyCategoryPageTitleTest</b><br>Test class: com.ehm.qa.testcases.CategoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.CategoryPageTest@3d484181</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.LoginPageTest.VerifyEhomeImageTest()'><b>VerifyEhomeImageTest</b><br>Test class: com.ehm.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.ehm.qa.testcases.LoginPageTest@3918c187</td></tr>
+<tr>
+<td title='com.ehm.qa.testcases.ConditionPageTest.VerifyConditionPageTest()'><b>VerifyConditionPageTest</b><br>Test class: com.ehm.qa.testcases.ConditionPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.ehm.qa.testcases.ConditionPageTest@242aa8d9</td></tr>
+</table><p>
+</body>
+</html>
